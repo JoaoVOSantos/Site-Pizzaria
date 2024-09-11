@@ -1,0 +1,36 @@
+@import url(index.css);
+
+header{
+    display: grid;
+    justify-content: center;
+    font-family: var(--texto-titulo);
+    margin: 15px;
+    font-size: 1.5rem;
+}
+
+.Pagamento{
+    border-radius: 15px;
+    color: var(--cor-fundo);
+    background-color: var(--cor-complementar1);
+    padding: 20px;
+}
+
+.TituloPagamento{
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    font-family: var(--texto-corpo);
+}
+
+.TabelaPagamento{
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.BotaoVoltar{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+

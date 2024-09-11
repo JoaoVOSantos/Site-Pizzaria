@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/pagamento.css">
+    <title>Pagina de Pagamento</title>
+</head>
+<body>
+    <header>
+        <h1>Formas de Pagamento</h1>
+
+        
+    </header>
+
+    <main>
+        <div class="Pagamento">
+            <div class="TituloPagamento">
+                <h3>Escolha</h3>
+            </div>
+            <div class="TabelaPagamento">
+                <table>   
+                    <dl> 
+                        <dt><input type="radio" name="tipoPagamento">Cartão de Credito</dt>
+                        <dt><input type="radio" name="tipoPagamento">Cartão de Debito</dt>
+                        <dt><input type="radio" name="tipoPagamento">Dinheiro</dt>
+                        <dt><input type="radio" name="tipoPagamento">Pix</dt>
+                        <dt><input type="radio" name="tipoPagamento">Cheque</dt>
+                    </dl> 
+                </table>
+            </div>
+
+            <div class="BotaoVoltar">
+                <a href="montePIzza.html"><input type="submit" value="Voltar">
+                <a><input type="submit" value="Finalizar" onclick="AlertaFinalizar()">
+            </div>
+        </div>
+    </main>
+
+
+    <script src="../scripts/index.js"></script>
+</body>
+</html>

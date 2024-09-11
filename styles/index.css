@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap');
+/* font-family: "Poetsen One", sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poetsen+One&display=swap');
+/* font-family: "Bebas Neue", sans-serif; */
+/* font-family: "Poetsen One", sans-serif; */
+
+
+*{
+    margin:0;
+    padding: 0;
+    border-radius: none;
+    text-decoration: none;
+    list-style: none;
+    border: none;
+}   
+
+
+:root{
+    --cor-principal: #0004EB;
+    --cor-secundaria: #EBD300;
+    --cor-complementar1: #dfeb00;
+    --cor-complementar2: #EB9B00;
+    --cor-fundo: #323496;
+    --texto-titulo: 'Poetsen One', sans-serif;
+    --texto-corpo: 'Bebas Neue', sans-serif;
+}
+
+body{
+    color: white;
+    background-color: var(--cor-fundo);
+    display: flex;
+    flex-direction: column;
+}
+
+.Titulo{
+    display: flex;
+    justify-content: center;
+    margin: 15px;
+    font-family: var(--texto-titulo);
+    font-weight: 400;
+    font-size: 2rem;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+}
+
+.Cardapio{
+    background-color: var(--cor-complementar1);
+    padding: 20px;
+    color: var(--cor-fundo);
+    border-radius: 10px;
+}
+
+.SubTitulo{
+    display: flex;
+    justify-content: center;
+    font-family: var(--texto-corpo);
+    font-weight: 200;
+    font-size: 1.2rem;
+}
+
+.Produtos{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2rem;
+    margin: 10px;
+}
+li{
+    font-family: var(--texto-corpo);
+    font-size: 1.5rem;
+}
+dd{
+    margin-bottom: 10px;
+}
+
+.BotaoProximo{
+    display: flex;
+    justify-content: center;
+}
+
+a{
+    cursor: auto;
+}
+
+input{
+    cursor: pointer;
+    border-radius: 5px;
+    color: white;
+    font-family: var(--texto-titulo);
+    padding: 10px;
+    margin-top: 5px;
+    background-color: var(--cor-principal);
+    width: 100px;
+}
+
+
+footer{
+    margin-top: 20px;
+    display: flex;
+    
+    
+}
+
+.Sugestoes{
+    display: grid;
+    font-family: var(--texto-titulo);
+    gap: 5px;
+    margin-left: 20px;
+}
+
+.BotaoEnviar{
+    background-color: var(--cor-complementar1);
+    color: var(--cor-principal);
+}
+
